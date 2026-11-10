@@ -1,6 +1,6 @@
-# CodeMentor Learning Hub
+# ByteBloom Learning Hub
 
-A small, responsive learning app for C, C++ and Java. Open `index.html` in a browser or publish the repository with GitHub Pages.
+ByteBloom is a colorful, responsive learning app for C, C++ and Java. Open `index.html` in a browser or publish the repository with GitHub Pages.
 
 ## Included
 - Nine short lessons with code examples and quick checks
