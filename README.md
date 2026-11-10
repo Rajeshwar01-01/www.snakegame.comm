@@ -1,25 +1,18 @@
-# CodeMentor — C / C++ / Java Learning Platform
+# CodeMentor Learning Hub
 
-Production-oriented Next.js + TypeScript architecture for an animated programming academy.
+A small, responsive learning app for C, C++ and Java. Open `index.html` in a browser or publish the repository with GitHub Pages.
 
 ## Included
-- Premium dark developer UI and responsive shell
-- Animated landing page with code/terminal demo
-- Language/topic/course cards
-- Dashboard/progress model
-- Compiler API contract with sandbox-ready backend boundary
-- Supabase/PostgreSQL schema
-- Auth flow design (email verification + GitHub OAuth)
-- Reusable component architecture
-- Accessibility/reduced-motion foundations
+- Nine short lessons with code examples and quick checks
+- Copyable examples, per-lesson notes, and saved completion progress
+- Responsive layout and motion that respects reduced-motion preferences
+- Local browser storage; no account or backend required
 
-## Run
-```bash
-npm install
-npm run dev
-```
+## Limits
+This is an educational frontend demo. It does not compile or execute code, and it does not include a compiler service, authentication, or cloud synchronization. Progress and notes are stored in the current browser only.
 
-Create `.env.local` from `.env.example` and connect Supabase/auth + a sandboxed compiler service before enabling production features.
+## Publish with GitHub Pages
+In the repository, open **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, and save. The site URL is:
+https://rajeshwar01-01.github.io/www.snakegame.comm/
 
-## Security
-Never execute submitted C/C++/Java source in the Next.js process. Send jobs to an isolated execution service with CPU, memory, timeout, output, filesystem and network restrictions.
+Replace `REPO` with the repository name.
